@@ -1,0 +1,325 @@
+<!--The outputs of each variable -->
+
+<!-- forecast =soup.find(id='seven-day-forecast') -->
+<div class="panel panel-default" id="seven-day-forecast">
+    <div class="panel-heading">
+     <b>
+      Extended Forecast for
+     </b>
+     <h2 class="panel-title">
+      San Francisco CA
+     </h2>
+    </div>
+    <div class="panel-body" id="seven-day-forecast-body">
+     <div id="seven-day-forecast-container">
+      <ul class="list-unstyled" id="seven-day-forecast-list">
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          This
+          <br/>
+          Afternoon
+         </p>
+         <p>
+          <img alt="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. " class="forecast-icon" src="newimages/medium/ovc.png" title="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. "/>
+         </p>
+         <p class="short-desc">
+          Cloudy
+         </p>
+         <p class="temp temp-high">
+          High: 56 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Tonight
+          <br/>
+          <br/>
+         </p>
+         <p>
+          <img alt="Tonight: Cloudy, with a low around 47. Light north northwest wind. " class="forecast-icon" src="newimages/medium/novc.png" title="Tonight: Cloudy, with a low around 47. Light north northwest wind. "/>
+         </p>
+         <p class="short-desc">
+          Cloudy
+         </p>
+         <p class="temp temp-low">
+          Low: 47 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          M.L.King
+          <br/>
+          Day
+         </p>
+         <p>
+          <img alt="M.L.King Day: A 10 percent chance of rain after 5pm.  Cloudy, then gradually becoming mostly sunny, with a high near 58. Calm wind becoming southwest 5 to 9 mph in the afternoon. " class="forecast-icon" src="DualImage.php?i=ovc&amp;j=ra&amp;jp=10" title="M.L.King Day: A 10 percent chance of rain after 5pm.  Cloudy, then gradually becoming mostly sunny, with a high near 58. Calm wind becoming southwest 5 to 9 mph in the afternoon. "/>
+         </p>
+         <p class="short-desc">
+          Cloudy then
+          <br/>
+          Slight Chance
+          <br/>
+          Rain
+         </p>
+         <p class="temp temp-high">
+          High: 58 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Monday
+          <br/>
+          Night
+         </p>
+         <p>
+          <img alt="Monday Night: A 30 percent chance of rain, mainly after 11pm.  Mostly cloudy, with a low around 49. South southwest wind 6 to 8 mph.  New precipitation amounts of less than a tenth of an inch possible. " class="forecast-icon" src="newimages/medium/nra30.png" title="Monday Night: A 30 percent chance of rain, mainly after 11pm.  Mostly cloudy, with a low around 49. South southwest wind 6 to 8 mph.  New precipitation amounts of less than a tenth of an inch possible. "/>
+         </p>
+         <p class="short-desc">
+          Chance Rain
+         </p>
+         <p class="temp temp-low">
+          Low: 49 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Tuesday
+          <br/>
+          <br/>
+         </p>
+         <p>
+          <img alt="Tuesday: Rain likely, mainly before 5pm.  Cloudy, with a high near 57. South southeast wind around 11 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. " class="forecast-icon" src="newimages/medium/ra70.png" title="Tuesday: Rain likely, mainly before 5pm.  Cloudy, with a high near 57. South southeast wind around 11 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. "/>
+         </p>
+         <p class="short-desc">
+          Rain Likely
+         </p>
+         <p class="temp temp-high">
+          High: 57 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Tuesday
+          <br/>
+          Night
+         </p>
+         <p>
+          <img alt="Tuesday Night: A 30 percent chance of rain before 11pm.  Mostly cloudy, with a low around 47. New precipitation amounts of less than a tenth of an inch possible. " class="forecast-icon" src="DualImage.php?i=nra&amp;j=nbkn&amp;ip=30" title="Tuesday Night: A 30 percent chance of rain before 11pm.  Mostly cloudy, with a low around 47. New precipitation amounts of less than a tenth of an inch possible. "/>
+         </p>
+         <p class="short-desc">
+          Chance Rain
+          <br/>
+          then Mostly
+          <br/>
+          Cloudy
+         </p>
+         <p class="temp temp-low">
+          Low: 47 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Wednesday
+          <br/>
+          <br/>
+         </p>
+         <p>
+          <img alt="Wednesday: Patchy fog before 10am.  Otherwise, partly sunny, with a high near 57." class="forecast-icon" src="DualImage.php?i=fg&amp;j=sct" title="Wednesday: Patchy fog before 10am.  Otherwise, partly sunny, with a high near 57."/>
+         </p>
+         <p class="short-desc">
+          Patchy Fog
+          <br/>
+          then Mostly
+          <br/>
+          Sunny
+         </p>
+         <p class="temp temp-high">
+          High: 57 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Wednesday
+          <br/>
+          Night
+         </p>
+         <p>
+          <img alt="Wednesday Night: Patchy fog after 2am.  Otherwise, partly cloudy, with a low around 46." class="forecast-icon" src="DualImage.php?i=nsct&amp;j=nfg" title="Wednesday Night: Patchy fog after 2am.  Otherwise, partly cloudy, with a low around 46."/>
+         </p>
+         <p class="short-desc">
+          Partly Cloudy
+          <br/>
+          then Patchy
+          <br/>
+          Fog
+         </p>
+         <p class="temp temp-low">
+          Low: 46 °F
+         </p>
+        </div>
+       </li>
+       <li class="forecast-tombstone">
+        <div class="tombstone-container">
+         <p class="period-name">
+          Thursday
+          <br/>
+          <br/>
+         </p>
+         <p>
+          <img alt="Thursday: Patchy fog before 11am.  Otherwise, partly sunny, with a high near 59." class="forecast-icon" src="DualImage.php?i=fg&amp;j=bkn" title="Thursday: Patchy fog before 11am.  Otherwise, partly sunny, with a high near 59."/>
+         </p>
+         <p class="short-desc">
+          Patchy Fog
+          <br/>
+          then Partly
+          <br/>
+          Sunny
+         </p>
+         <p class="temp temp-high">
+          High: 59 °F
+         </p>
+        </div>
+       </li>
+      </ul>
+     </div>
+     <script type="text/javascript">
+      
+   $(function () {
+           var maxh = 0;
+           $(".forecast-tombstone .short-desc").each(function () {
+                   var h = $(this).height();
+                   if (h > maxh) { maxh = h; }
+           });
+           $(".forecast-tombstone .short-desc").height(maxh);
+   });
+     </script>
+    </div>
+   </div>
+
+
+
+
+<!-- forecast_items=forecast.find_all(class_='tombstone-container') -->
+
+[
+<div class="tombstone-container">
+    <p class="period-name">Today<br/><br/>
+    </p>
+<p>
+    <img alt="Today: Cloudy, with a high near 56. Calm wind becoming north around 5 mph in the afternoon. " class="forecast-icon" src="newimages/medium/ovc.png" title="Today: Cloudy, with a high near 56. Calm wind becoming north around 5 mph in the afternoon. "/>
+</p>
+<p class="short-desc">Cloudy</p>
+<p class="temp temp-high">High: 56 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Tonight<br/><br/></p>
+<p><img alt="Tonight: Cloudy, with a low around 47. Light north northwest wind. " class="forecast-icon" src="newimages/medium/novc.png" title="Tonight: Cloudy, with a low around 47. Light north northwest wind. "/></p><p class="short-desc">Cloudy</p><p class="temp temp-low">Low: 47 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">M.L.King<br/>Day</p>
+<p><img alt="M.L.King Day: A 10 percent chance of rain after 5pm.  Cloudy, then gradually becoming mostly sunny, with a high near 58. Calm wind becoming southwest 5 to 9 mph in the afternoon. " class="forecast-icon" src="DualImage.php?i=ovc&amp;j=ra&amp;jp=10" title="M.L.King Day: A 10 percent chance of rain after 5pm.  Cloudy, then gradually becoming mostly sunny, with a high near 58. Calm wind becoming southwest 5 to 9 mph in the afternoon. "/></p><p class="short-desc">Cloudy then<br/>Slight Chance<br/>Rain</p><p class="temp temp-high">High: 58 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Monday<br/>Night</p>
+<p><img alt="Monday Night: A 30 percent chance of rain, mainly after 11pm.  Mostly cloudy, with a low around 49. South southwest wind 6 to 8 mph.  New precipitation amounts of less than a tenth of an inch possible. " class="forecast-icon" src="newimages/medium/nra30.png" title="Monday Night: A 30 percent chance of rain, mainly after 11pm.  Mostly cloudy, with a low around 49. South southwest wind 6 to 8 mph.  New precipitation amounts of less than a tenth of an inch possible. "/></p><p class="short-desc">Chance Rain</p><p class="temp temp-low">Low: 49 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Tuesday<br/><br/></p>
+<p><img alt="Tuesday: Rain likely, mainly before 5pm.  Cloudy, with a high near 57. South southeast wind around 11 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. " class="forecast-icon" src="newimages/medium/ra70.png" title="Tuesday: Rain likely, mainly before 5pm.  Cloudy, with a high near 57. South southeast wind around 11 mph.  Chance of precipitation is 70%. New precipitation amounts between a tenth and quarter of an inch possible. "/></p><p class="short-desc">Rain Likely</p><p class="temp temp-high">High: 57 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Tuesday<br/>Night</p>
+<p><img alt="Tuesday Night: A 30 percent chance of rain before 11pm.  Mostly cloudy, with a low around 47. New precipitation amounts of less than a tenth of an inch possible. " class="forecast-icon" src="DualImage.php?i=nra&amp;j=nbkn&amp;ip=30" title="Tuesday Night: A 30 percent chance of rain before 11pm.  Mostly cloudy, with a low around 47. New precipitation amounts of less than a tenth of an inch possible. "/></p><p class="short-desc">Chance Rain<br/>then Mostly<br/>Cloudy</p><p class="temp temp-low">Low: 47 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Wednesday<br/><br/></p>
+<p><img alt="Wednesday: Patchy fog before 10am.  Otherwise, partly sunny, with a high near 57." class="forecast-icon" src="DualImage.php?i=fg&amp;j=sct" title="Wednesday: Patchy fog before 10am.  Otherwise, partly sunny, with a high near 57."/></p><p class="short-desc">Patchy Fog<br/>then Mostly<br/>Sunny</p><p class="temp temp-high">High: 57 °F</p>
+</div>,
+
+<div class="tombstone-container">
+<p class="period-name">Wednesday<br/>Night</p>
+<p><img alt="Wednesday Night: Patchy fog after 2am.  Otherwise, partly cloudy, with a low around 46." class="forecast-icon" src="DualImage.php?i=nsct&amp;j=nfg" title="Wednesday Night: Patchy fog after 2am.  Otherwise, partly cloudy, with a low around 46."/></p><p class="short-desc">Partly Cloudy<br/>then Patchy<br/>Fog</p><p class="temp temp-low">Low: 46 °F</p></div>,
+
+<div class="tombstone-container">
+<p class="period-name">Thursday<br/><br/></p>
+<p><img alt="Thursday: Patchy fog before 11am.  Otherwise, partly sunny, with a high near 59." class="forecast-icon" src="DualImage.php?i=fg&amp;j=bkn" title="Thursday: Patchy fog before 11am.  Otherwise, partly sunny, with a high near 59."/></p><p class="short-desc">Patchy Fog<br/>then Partly<br/>Sunny</p><p class="temp temp-high">High: 59 °F</p></div>
+]
+
+<!-- tonight = forecast_items[0] -->
+
+<div class="tombstone-container">
+    <p class="period-name">
+     This
+     <br/>
+     Afternoon
+    </p>
+    <p>
+     <img alt="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. " class="forecast-icon" src="newimages/medium/ovc.png" title="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. "/>
+    </p>
+    <p class="short-desc">
+     Cloudy
+    </p>
+    <p class="temp temp-high">
+     High: 56 °F
+    </p>
+   </div>
+
+
+<!-- period = first_item.find(class_="period-name").get_text() -->
+   ThisAfternoon
+
+
+<!-- short_Desc = first_item.find(class_= "short-desc").get_text() -->
+   Cloudy
+
+
+<!-- temp=first_item.find(class_="temp temp-high").get_text() -->
+   print(short_Desc)
+
+
+<!-- image = first_item.find('img') -->
+   <img alt="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. " class="forecast-icon" src="newimages/medium/ovc.png" 
+   title="This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph. "
+   />
+
+<!-- describtion=img['title'] -->
+This Afternoon: Cloudy, with a high near 56. North wind 3 to 5 mph.
+
+<!-- period_tags = seven_day.select(".tombstone-container .period-name") -->
+[
+<p class="period-name">Today<br/><br/></p>,
+<p class="period-name">Tonight<br/><br/></p>,
+<p class="period-name">M.L.King<br/>Day</p>,
+<p class="period-name">Monday<br/>Night</p>,
+<p class="period-name">Tuesday<br/><br/></p>,
+<p class="period-name">Tuesday<br/>Night</p>,
+<p class="period-name">Wednesday<br/><br/></p>,
+<p class="period-name">Wednesday<br/>Night</p>,
+<p class="period-name">Thursday<br/><br/></p>
+]
+
+
+<!-- periods = [pt.get_text() for pt in period_tags] -->
+
+['Today', 'Tonight', 'M.L.KingDay', 'MondayNight', 'Tuesday', 'TuesdayNight', 'Wednesday', 'WednesdayNight', 'Thursday']
